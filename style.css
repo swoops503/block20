@@ -1,0 +1,46 @@
+/* Style for the root element (container) */
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+/* Style for the h1 element */
+h1 {
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Style for the unordered list */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Style for the list items */
+li {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* Alternate background color for list items */
+li:nth-child(even) {
+  background-color: #333;
+}
+
+/* Apply grey font color */
+#root.grey {
+  color: grey;
+}
+
+/* Apply white font color */
+#root.white {
+  color: white;
+}
